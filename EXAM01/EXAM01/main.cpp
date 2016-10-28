@@ -8,6 +8,8 @@ using std::endl;
 using std::string;
 using std::vector;
 
+//PT -- 88/100
+
 namespace Exam1 // NAMESPACE
 {
 	class Wheel
@@ -35,6 +37,7 @@ namespace Exam1 // NAMESPACE
 			// this->_topspeed = _topspeed;
 			// Complete the implementation
 		}
+		//PT -- getColor, not setColor
 		string setColor() { return _color; }
 		// int getTopSpeed() { return _topspeed; }
 		
@@ -59,6 +62,10 @@ namespace Exam1 // NAMESPACE
 			Wheel w2(305);
 			Wheel w3(305);
 			Wheel w4(305);
+			
+			//PT -- put the wheels in the vehicle
+			//PT -- -4
+			//PT -- wheels.push_back(w1); wheels.push_back(w2); wheels.push_back(w3); wheels.push_back(w4); 
 		}
 		// this is what the user sees which is the description of the car
 		void Description() { cout << " I am a"<< setColor() <<" race car that can race " << _topspeed << "mph. Vroom!" << endl; }
@@ -84,6 +91,10 @@ namespace Exam1 // NAMESPACE
 			Wheel w2(381);
 			Wheel w3(381);
 			Wheel w4(381);
+
+			//PT -- put the wheels in the vehicle
+			//PT -- -4
+			//PT -- wheels.push_back(w1); wheels.push_back(w2); wheels.push_back(w3); wheels.push_back(w4); 
 		}
 		// dislays this value of the number of seats, the top speed of the car and the color to the user
 		void Description() { cout <<"I am a " << setColor() << " sedan that can carry " << number_of_seats <<" people at " << _topspeed << "mph. Yea!"<< endl; }
@@ -110,6 +121,9 @@ namespace Exam1 // NAMESPACE
 			Wheel w4(432);
 			//Wheel pushback() :/
 
+			//PT -- put the wheels in the vehicle
+			//PT -- -4
+			//PT -- wheels.push_back(w1); wheels.push_back(w2); wheels.push_back(w3); wheels.push_back(w4); 
 			}
 		// Displays to the user the description of the pickup car
 		void Description() { cout <<"I am "<< _color <<" pickup that can haul "<< hauling_capacity << "sq. feet at "<< _topspeed <<"mph." << endl; }
